@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan C Joju - Full Stack Developer & Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">ACJ</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-container">
+            <!-- Text section -->
+            <div class="hero-text">
+                <h1 class="hero-title fade-in">
+                    Hi, I'm <span class="gradient-text">Alan C Joju</span>
+                </h1>
+                <p class="hero-subtitle" id="typingText"></p>
+                <p class="hero-tagline">
+                    Creating beautiful and functional web experiences
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+
+            <!-- Image section -->
+            <div class="hero-image-container">
+                <div class="image-glow"></div>
+                <img src="alanccc.png" alt="Alan C Joju" class="hero-image" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content animate-on-scroll">
+                <div class="enhanced-about-image">
+                    <div class="about-photo-wrapper">
+                        <div class="about-photo-bg"></div>
+                        <img src="alan.png" alt="Alan C Joju" class="about-photo">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Full Stack Developer & Designer</h3>
+                    <p>Passionate developer from Thrissur with 5+ years of experience in building modern web applications. I specialize in creating responsive, user-friendly interfaces with cutting-edge technologies.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-icon">📧</span>
+                            <span>alancjoju@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <span>Thrissur, Kerala</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <p class="section-subtitle animate-on-scroll">Some of my professional and academic works</p>
+
+            <div class="projects-grid">
+
+                <!-- Sunglasses Store Project -->
+                <div class="project-card animate-on-scroll" style="--delay: 0.1s;">
+                    <div class="project-color" style="background: #E8F5E9;"></div>
+                    <div class="project-content">
+                        <h3>Sunglasses E-Commerce Store</h3>
+                        <p>Fully functional online sunglasses store built using ASP.NET Web Forms with session-based cart, product management, and reports.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">ASP.NET</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">SQL Server</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Service Booking Project -->
+                <div class="project-card animate-on-scroll" style="--delay: 0.2s;">
+                    <div class="project-color" style="background: #E8F4F8;"></div>
+                    <div class="project-content">
+                        <h3>Vehicle Service Booking System</h3>
+                        <p>Online platform for booking vehicle services where a driver picks up and delivers vehicles post service. Built with PHP, JS, and MySQL.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website -->
+                <div class="project-card animate-on-scroll" style="--delay: 0.3s;">
+                    <div class="project-color" style="background: #F0E6FA;"></div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Creative and responsive personal website to showcase skills, projects, and contact details, designed with clean UI and animations.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task Management App -->
+                <div class="project-card animate-on-scroll" style="--delay: 0.4s;">
+                    <div class="project-color" style="background: #FFE5D9;"></div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Web-based task tracking system to assign and monitor progress across multiple users with real-time status updates.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Skills & Expertise</h2>
+            <p class="section-subtitle animate-on-scroll">Technologies I work with and specialize in</p>
+
+            <div class="skills-grid">
+
+                <div class="skill-card animate-on-scroll" style="--delay: 0.1s;">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                    <div class="progress-bar"><div class="progress-fill" style="--width: 90%;"></div></div>
+                </div>
+
+                <div class="skill-card animate-on-scroll" style="--delay: 0.2s;">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>ASP.NET (C#), PHP, SQL Server, MySQL</p>
+                    <div class="progress-bar"><div class="progress-fill" style="--width: 88%;"></div></div>
+                </div>
+
+                <div class="skill-card animate-on-scroll" style="--delay: 0.3s;">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Responsive design, Figma, Adobe XD, Prototyping</p>
+                    <div class="progress-bar"><div class="progress-fill" style="--width: 80%;"></div></div>
+                </div>
+
+                <div class="skill-card animate-on-scroll" style="--delay: 0.5s;">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Other Expertise</h3>
+                    <p>Version Control (Git), API Integration, Web Hosting, Debugging</p>
+                    <div class="progress-bar"><div class="progress-fill" style="--width: 85%;"></div></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <p class="section-subtitle animate-on-scroll">Let's create something amazing together</p>
+            <div class="contact-content">
+                <form class="contact-form animate-on-scroll" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-input" required>
+                        <label for="name" class="form-label">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-input" required>
+                        <label for="email" class="form-label">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-input" rows="5" required></textarea>
+                        <label for="message" class="form-label">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span class="btn-text">Send Message</span>
+                    </button>
+                </form>
+                <div class="social-links animate-on-scroll">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:alancjoju@gmail.com" class="social-icon" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" fill="none" stroke="#F8F9FA" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Alan C Joju. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Privacy Policy</a>
+                    <a href="#home">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>
